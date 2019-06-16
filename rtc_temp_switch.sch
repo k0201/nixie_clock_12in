@@ -389,10 +389,10 @@ Wire Wire Line
 	3900 4950 4450 4950
 Wire Wire Line
 	3900 5050 4200 5050
-Text HLabel 4200 5350 0    50   Input ~ 0
-12V
 Wire Wire Line
 	4200 5350 4450 5350
 Wire Wire Line
 	4450 5350 4450 5450
+Text HLabel 4200 5350 0    50   Input ~ 0
+5V
 $EndSCHEMATC
