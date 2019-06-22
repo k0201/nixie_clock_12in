@@ -126,14 +126,14 @@ Connection ~ 4200 1050
 Wire Wire Line
 	3950 1650 4500 1650
 Connection ~ 4500 1650
-Text Label 8350 2450 0    50   ~ 0
+Text Label 8400 2450 2    50   ~ 0
 SCL
-Text Label 8350 2550 0    50   ~ 0
+Text Label 8400 2350 2    50   ~ 0
 SDA
 Wire Wire Line
-	8350 2450 8150 2450
+	8400 2450 8150 2450
 Wire Wire Line
-	8150 2550 8350 2550
+	8150 2550 8400 2550
 $Comp
 L power:GND #PWR01
 U 1 1 5CBEC0A3
@@ -481,14 +481,14 @@ Text Label 2400 1450 0    50   ~ 0
 12V
 Text Label 6000 3950 2    50   ~ 0
 neon
-Text Label 8400 2350 2    50   ~ 0
+Text Label 8400 2550 2    50   ~ 0
 neon
 Wire Wire Line
 	5650 3950 6000 3950
 Wire Wire Line
 	8150 2350 8400 2350
 Wire Wire Line
-	8150 2650 8350 2650
+	8150 2650 8400 2650
 Wire Wire Line
 	8150 2150 8450 2150
 Wire Wire Line
@@ -497,7 +497,7 @@ Text Label 8450 2150 2    50   ~ 0
 sw2
 Text Label 8450 2250 2    50   ~ 0
 sw1
-Text Label 8350 2650 2    50   ~ 0
+Text Label 8400 2650 2    50   ~ 0
 temp
 Wire Wire Line
 	6050 5000 6250 5000

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -14,20 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Jack-DC J?
-U 1 1 5CBB28D0
-P 3150 2900
-AR Path="/5CB09374/5CBB28D0" Ref="J?"  Part="1" 
-AR Path="/5CBB28D0" Ref="J?"  Part="1" 
-AR Path="/5CBB1E8B/5CBB28D0" Ref="J1"  Part="1" 
-F 0 "J1" H 3207 3225 50  0000 C CNN
-F 1 "Jack-DC" H 3207 3134 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3200 2860 50  0001 C CNN
-F 3 "~" H 3200 2860 50  0001 C CNN
-	1    3150 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CBB28D6
@@ -204,9 +190,8 @@ F 1 "PWR_FLAG" V 3450 3128 50  0000 L CNN
 F 2 "" H 3450 3000 50  0001 C CNN
 F 3 "~" H 3450 3000 50  0001 C CNN
 	1    3450 3000
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
-Connection ~ 3450 3000
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5CCF4AB5
@@ -249,6 +234,21 @@ F 1 "MountingHole" H 3650 1555 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3550 1600 50  0001 C CNN
 F 3 "~" H 3550 1600 50  0001 C CNN
 	1    3550 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3000
+$Comp
+L Connector:Jack-DC J?
+U 1 1 5CBB28D0
+P 3150 2900
+AR Path="/5CB09374/5CBB28D0" Ref="J?"  Part="1" 
+AR Path="/5CBB28D0" Ref="J?"  Part="1" 
+AR Path="/5CBB1E8B/5CBB28D0" Ref="J1"  Part="1" 
+F 0 "J1" H 3207 3225 50  0000 C CNN
+F 1 "Jack-DC" H 3207 3134 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3200 2860 50  0001 C CNN
+F 3 "~" H 3200 2860 50  0001 C CNN
+	1    3150 2900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
